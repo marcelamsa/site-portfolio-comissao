@@ -1,0 +1,216 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Termos de serviço, redes sociais e portfólio de comissões artísticas." />
+  <title>Comissões • Termos de Serviço</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#termos" data-tab-link="termos" aria-label="Página inicial">
+        <span class="brand-star" aria-hidden="true">★</span>
+        <span>Astro Arts</span>
+      </a>
+
+      <nav class="tabs" aria-label="Navegação principal">
+        <button class="tab is-active" type="button" data-tab="termos" aria-selected="true">
+          Termos
+        </button>
+        <button class="tab" type="button" data-tab="redes" aria-selected="false">
+          Redes sociais
+        </button>
+        <button class="tab" type="button" data-tab="portfolio" aria-selected="false">
+          Portfólio
+        </button>
+      </nav>
+    </header>
+
+    <main class="content">
+      <section class="panel tab-panel is-active" id="termos" data-panel="termos">
+        <div class="decor-star star-one" aria-hidden="true">★</div>
+        <div class="decor-star star-two" aria-hidden="true">★</div>
+
+        <p class="eyebrow">COMMISSION INFO</p>
+        <h1>Termos de Serviço de Comissão</h1>
+        <p class="intro">
+          Ao solicitar uma encomenda, você concorda automaticamente com todos os termos descritos abaixo.
+        </p>
+
+        <div class="terms-grid">
+          <article class="term-card">
+            <h2>✦ Informações Gerais ✦</h2>
+            <p><strong>Referências:</strong> São obrigatórias imagens de referência clara e/ou descrições detalhadas.</p>
+            <p><strong>Adicionais:</strong> Personagens extras, cenários elaborados e acessórios complexos terão valores combinados à parte.</p>
+          </article>
+
+          <article class="term-card">
+            <h2>✦ Direitos de Uso e Imagem ✦</h2>
+            <p><strong>Uso Pessoal:</strong> Liberado para uso em redes sociais, avatares/icons e impressões pessoais (com os devidos créditos ao artista).</p>
+            <p><strong>Uso Comercial:</strong> Projetos com fins lucrativos (estampas, modelos V-Tuber, marcas, etc.) exigem taxa comercial combinada previamente.</p>
+            <p><strong>Uso de Imagem pelo Artista:</strong> Reservo o direito de publicar a arte final e seu processo de criação em meu portfólio, redes sociais e materiais de divulgação. Caso a peça exija sigilo para data específica, avise com antecedência.</p>
+            <p><strong>Proibições:</strong> É estritamente proibido revender, alterar/cobrir a arte (tracing) ou utilizá-la para treinar ferramentas de Inteligência Artificial (IA).</p>
+          </article>
+
+          <article class="term-card">
+            <h2>✦ Pagamento e Reembolso ✦</h2>
+            <p><strong>Forma de Pagamento:</strong> Exclusivamente via Pix.</p>
+            <p><strong>Condições:</strong> 100% adiantado ou 50% no pedido + 50% na entrega da arte final.</p>
+            <p><strong>Política de Reembolso:</strong></p>
+            <ul>
+              <li>Reembolso de 100% do valor caso o cancelamento ocorra antes do início do rascunho.</li>
+              <li>Sem reembolso após o envio do rascunho.</li>
+              <li>Caso o cancelamento parta do artista, 100% do valor pago será devolvido imediatamente.</li>
+            </ul>
+          </article>
+
+          <article class="term-card">
+            <h2>✦ Processo, Revisões e Entrega ✦</h2>
+            <p><strong>Processo:</strong> Envie todas as referências visuais e ideias de forma clara no momento do pedido.</p>
+            <p><strong>Revisões:</strong> Alterações gratuitas na fase de rascunho. Na arte final, serão feitos apenas ajustes leves de cor. Mudar a pose ou elementos estruturais na fase final gerará custos adicionais.</p>
+            <p><strong>Entrega:</strong> Arquivos em alta resolução (PNG/JPG) enviados por e-mail ou link do Google Drive para preservar a qualidade da imagem.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel tab-panel" id="redes" data-panel="redes" hidden>
+        <div class="decor-star star-three" aria-hidden="true">★</div>
+        <p class="eyebrow">FIND ME ONLINE</p>
+        <h1>Redes Sociais</h1>
+
+        <div class="social-grid">
+
+          <a class="social-card" href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">
+            <span class="social-icon">♪</span>
+            <span>
+              <strong>TikTok</strong>
+              <small>@astro_arts4</small>
+            </span>
+            <span class="arrow">↗</span>
+          </a>
+
+        <a class="social-card" href="#" onclick="copyDiscord(event)">
+        <span class="social-icon">
+        <i class="fa-brands fa-discord"></i>
+        </span>
+
+        <span>
+        <strong>Discord</strong>
+        <small id="discord-user">@anonimo1002</small>
+        </span>
+
+        <span class="arrow">⧉</span>
+        </a>
+        </div>
+      </section>
+
+      <section class="panel tab-panel" id="portfolio" data-panel="portfolio" hidden>
+        <div class="decor-star star-four" aria-hidden="true">★</div>
+        <p class="eyebrow">MY WORK</p>
+        <h1>Portfólio</h1>
+
+        <div class="portfolio-grid">
+          <figure class="portfolio-item">
+            <img src="img/image-28-1.png">
+
+          </figure>
+
+          <figure class="portfolio-item">
+            <img src="img/image-198.png">
+            
+          </figure>
+
+          <figure class="portfolio-item">
+            <img src="img/image-171.webp">
+            
+          </figure>
+
+          <figure class="portfolio-item">
+            <img src="img/image-288.png">
+            
+          </figure>
+
+          <figure class="portfolio-item">
+            <img src="img/image-319.png">
+            
+          </figure>
+
+          <figure class="portfolio-item">
+            <img src="img/IMG-20260725-WA0002.jpg">
+            
+          </figure>
+
+          <figure class="portfolio-item">
+            <img src="img/IMG-20260820-WA0010.jpg">
+          
+          </figure>
+
+          <figure class="portfolio-item">
+            <img src="img/IMG-20260909-WA0011.jpg">
+           
+          </figure>
+
+          <figure class="portfolio-item">
+            <img src="img/IMG-20260909-WA0012.jpg">
+          </figure>
+
+          <figure class="portfolio-item">
+            <img src="img/IMG-20260909-WA0013.jpg">
+          </figure>
+
+          
+          <figure class="portfolio-item">
+            <img src="img/IMG-20260909-WA0014.jpg">
+          </figure>
+
+          
+          <figure class="portfolio-item">
+            <img src="img/IMG-20260909-WA0015.jpg">
+          </figure>
+
+          
+          <figure class="portfolio-item">
+            <img src="img/IMG-20260909-WA0016.jpg">
+          </figure>
+
+          
+          <figure class="portfolio-item">
+            <img src="img/IMG-20260909-WA0019.jpg">
+          </figure>
+
+          
+          <figure class="portfolio-item">
+            <img src="img/IMG-20260909-WA0022.jpg">
+          </figure>
+
+          
+          <figure class="portfolio-item">
+            <img src="img/IMG-20260909-WA0026.jpg">
+          </figure>
+
+          
+          <figure class="portfolio-item">
+            <img src="img/IMG-20260909-WA0028.jpg">
+          </figure>
+
+          
+          <figure class="portfolio-item">
+            <img src="img/IMG-20260909-WA0029.jpg">
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Feito com carinho ✦</span>
+      <span>© <span id="year"></span> • Astro Arts</span>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
